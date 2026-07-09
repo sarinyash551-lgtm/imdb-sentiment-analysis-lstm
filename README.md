@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 # 🎬 IMDb Movie Review Sentiment Analysis
 
 A web-based sentiment analysis application that predicts whether an IMDb movie review is **Positive** or **Negative** using a trained **Long Short-Term Memory (LSTM)** neural network built with TensorFlow and deployed using Streamlit.
