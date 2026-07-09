@@ -15,7 +15,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 model = keras.models.load_model("models/imdb_lstm_model.h5", compile=False)
 
 
-with open("imdb_word_index.json", "r") as f:
+with open("data/imdb_word_index.json", "r") as f:
     word_index = json.load(f)
 
 # settings
