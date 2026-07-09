@@ -12,10 +12,10 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 # Load the model and word index
 # ----------------------------
 
-model = keras.models.load_model("models/imdb_lstm_model.h5", compile=False)
+model = keras.models.load_model(""imdb_lstm_Yashsarin.h5"", compile=False)
 
 
-with open("data/imdb_word_index.json", "r") as f:
+with open("imdb_word_index.json", "r") as f:
     word_index = json.load(f)
 
 # settings
